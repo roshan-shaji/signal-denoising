@@ -38,3 +38,8 @@ Post-processing can be done on the denoised STFT signal to obtain a time-domain 
 
 
 **Dataset to be used:** We will be using the Mozilla common voice dataset. It is an open source multi-language dataset where each entry in the dataset consists of a unique 48kHz MP3 and corresponding text file. Many of the 27,142 recorded hours in the dataset also include demographic metadata like age, sex, and accent that can help train the accuracy of speech recognition engines. The dataset currently consists of 17,690 validated hours in 108 languages.
+
+
+**Repository Description:**
+1. ```gen_noisy_data.ipynb``` : Jupyter Notebook for generating noisy data
+2. ```denoising_rnn.ipynb``` : Jupyter Notebook containing denoising model and results
